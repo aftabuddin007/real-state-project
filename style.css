@@ -1,0 +1,147 @@
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  
+  
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+/* heading navber*/
+.heading{
+     background-color: rgba(255, 144, 14, 0.1);
+    
+}
+.header-banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.logo{
+   font-size: 45px; 
+   font-weight: 700;
+   color:#131313 ;
+
+}
+.nav-manu a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #424242;
+
+}
+.nav-manu li{
+    list-style-type: none;
+}
+.nav-manu{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.navber{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+/*banner section*/
+.banner-title{
+    font-size: 64px;
+    font-weight: 600;
+    color:rgb(19, 19, 19);
+    
+    margin-top: 150px;
+
+}
+.banner-description{
+    font-weight: 400;
+    
+    color: rgb(114, 114, 114);
+}
+.banner-btn{
+    height: 64px;
+    width: 180px;
+    border-radius:8px ;
+    background-color: rgb(255, 144, 14);
+    color: #ffffff;
+    border: none;
+
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 26px 0;
+}
+.banner-img{
+    margin-bottom: 40px;
+    width: 100%;
+   
+    
+}
+.banner-content{
+    max-width: 861px;
+   margin: 0 auto;
+   text-align: center;
+}
+/*media*/
+@media screen and (max-width:576px) {
+    .nav-manu , .navber {
+        flex-direction: column;
+    }
+}
+/*quick-list*/
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.quick-list{
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    gap:73px;
+    justify-content: space-between;
+}
+.quick-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.img1{
+    border-radius: 8px;
+    
+    
+}
+.feature-title{
+    font-size: 2.6rem;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.feature-description{
+    color: rgb(114, 114, 114);
+    font-weight: 400;
+}
+/*media-query small*/
+@media screen and (max-width:576px){
+    .quick-img{
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .quick-list{
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    .quick-list{
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    .feature{
+        margin: 0 auto;
+
+    }
+}
+/*enjoy features*/
+   
