@@ -144,6 +144,64 @@ main{
     }
 }
 /*enjoy features*/
+.fee-ti{
+    font-weight: 500;
+    font-size: 2.7rem;
+    color: rgb(19, 19, 19);
+   
+}
+.fee-des{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(114, 114, 114);
+    margin-bottom: 30px;
+}
+.fee-el-ti{
+    font-size: 1.35rem;
+    font-weight: 500;
+    color:rgb(19, 19, 19) ;
+    margin-bottom: 20px;
+}
+.fee-el-des{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(114, 114, 114);
+    margin-bottom: 20px;
+}
+.our-feature{
+    display: flex;
+    gap: 140px;
+     
+     margin: 130px auto;
+}
+.feature-element{
+    padding: 30px;
+}
+.feature-img img{
+    width: 100%;
+}
+.feature-title{
+    padding: 20px;
+    margin-top: auto;
+}
+.fea-btn{
+    padding: 45px 49px;
+    background-color: rgb(255, 144, 14);
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    margin-left: -140px;
+    margin-top: -100px;
+}
+.ex-ti{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.exper-class{
+    font-size: 4rem;
+    font-weight: 500;
+}
+
 
 /*some facts*/
 .some-title{
@@ -189,9 +247,17 @@ main{
         grid-template-columns: repeat(1, 1fr);
         margin: 0 auto;
     }
-    .card-container{
-       grid-template-columns: repeat(1, 1fr);margin: 0 auto;
+    .card-container {
+       grid-template-columns: repeat(1, 1fr);
+       margin :0 auto;
        
+    }
+    .our-feature{
+        flex-direction: column;
+    }
+    .fea-btn{
+        margin-top: 20px;
+        margin-left: 20px;
     }
     
 }
@@ -234,6 +300,20 @@ main{
         grid-template-columns: repeat(3 , 1fr);
         gap: 40px;
         
+    }
+    .our-feature{
+        flex-direction: column;
+    }
+    .feature-element{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .fea-btn{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+    .our-feature{
+        grid-template-columns: repeat(2, 1fr);
     }
     .fact-card{
         grid-template-columns: repeat(2,1fr);
